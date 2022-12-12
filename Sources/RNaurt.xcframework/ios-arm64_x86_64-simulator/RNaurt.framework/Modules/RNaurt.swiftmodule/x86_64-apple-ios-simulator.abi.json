@@ -2181,6 +2181,108 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(accel:gyro:mag:timeS:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MotionStruct",
+                "printedName": "RNaurt.MotionStruct",
+                "usr": "s:6RNaurt12MotionStructV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Swift.Double, Swift.Double, Swift.Double)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Swift.Double, Swift.Double, Swift.Double)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Swift.Double, Swift.Double, Swift.Double)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6RNaurt12MotionStructV5accel4gyro3mag5timeSACSd_S2dt_Sd_S2dtSd_S2dtSdtcfc",
+            "mangledName": "$s6RNaurt12MotionStructV5accel4gyro3mag5timeSACSd_S2dt_Sd_S2dtSd_S2dtSdtcfc",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",

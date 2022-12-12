@@ -66,6 +66,7 @@ public struct MotionStruct {
   public let gyro: (Swift.Double, Swift.Double, Swift.Double)
   public let mag: (Swift.Double, Swift.Double, Swift.Double)
   public let timeS: Swift.Double
+  public init(accel: (Swift.Double, Swift.Double, Swift.Double), gyro: (Swift.Double, Swift.Double, Swift.Double), mag: (Swift.Double, Swift.Double, Swift.Double), timeS: Swift.Double)
 }
 public struct NaurtLocation {
   public var timestamp: Swift.Double
