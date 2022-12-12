@@ -62,6 +62,10 @@ final public class Naurt {
   @objc deinit
 }
 public struct MotionStruct {
+  public let accel: (Swift.Double, Swift.Double, Swift.Double)
+  public let gyro: (Swift.Double, Swift.Double, Swift.Double)
+  public let mag: (Swift.Double, Swift.Double, Swift.Double)
+  public let timeS: Swift.Double
 }
 public struct NaurtLocation {
   public var timestamp: Swift.Double
