@@ -1,0 +1,3705 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RNaurt",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NaurtTrackingStatus",
+        "printedName": "NaurtTrackingStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "FULL",
+            "printedName": "FULL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RNaurt.NaurtTrackingStatus.Type) -> RNaurt.NaurtTrackingStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NaurtTrackingStatus",
+                    "printedName": "RNaurt.NaurtTrackingStatus",
+                    "usr": "s:6RNaurt19NaurtTrackingStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RNaurt.NaurtTrackingStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NaurtTrackingStatus",
+                        "printedName": "RNaurt.NaurtTrackingStatus",
+                        "usr": "s:6RNaurt19NaurtTrackingStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6RNaurt19NaurtTrackingStatusO4FULLyA2CmF",
+            "mangledName": "$s6RNaurt19NaurtTrackingStatusO4FULLyA2CmF",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "READY",
+            "printedName": "READY",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RNaurt.NaurtTrackingStatus.Type) -> RNaurt.NaurtTrackingStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NaurtTrackingStatus",
+                    "printedName": "RNaurt.NaurtTrackingStatus",
+                    "usr": "s:6RNaurt19NaurtTrackingStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RNaurt.NaurtTrackingStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NaurtTrackingStatus",
+                        "printedName": "RNaurt.NaurtTrackingStatus",
+                        "usr": "s:6RNaurt19NaurtTrackingStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6RNaurt19NaurtTrackingStatusO5READYyA2CmF",
+            "mangledName": "$s6RNaurt19NaurtTrackingStatusO5READYyA2CmF",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "UNKNOWN",
+            "printedName": "UNKNOWN",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RNaurt.NaurtTrackingStatus.Type) -> RNaurt.NaurtTrackingStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NaurtTrackingStatus",
+                    "printedName": "RNaurt.NaurtTrackingStatus",
+                    "usr": "s:6RNaurt19NaurtTrackingStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RNaurt.NaurtTrackingStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NaurtTrackingStatus",
+                        "printedName": "RNaurt.NaurtTrackingStatus",
+                        "usr": "s:6RNaurt19NaurtTrackingStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6RNaurt19NaurtTrackingStatusO7UNKNOWNyA2CmF",
+            "mangledName": "$s6RNaurt19NaurtTrackingStatusO7UNKNOWNyA2CmF",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "AWAITING_VALIDATION",
+            "printedName": "AWAITING_VALIDATION",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RNaurt.NaurtTrackingStatus.Type) -> RNaurt.NaurtTrackingStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NaurtTrackingStatus",
+                    "printedName": "RNaurt.NaurtTrackingStatus",
+                    "usr": "s:6RNaurt19NaurtTrackingStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RNaurt.NaurtTrackingStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NaurtTrackingStatus",
+                        "printedName": "RNaurt.NaurtTrackingStatus",
+                        "usr": "s:6RNaurt19NaurtTrackingStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6RNaurt19NaurtTrackingStatusO19AWAITING_VALIDATIONyA2CmF",
+            "mangledName": "$s6RNaurt19NaurtTrackingStatusO19AWAITING_VALIDATIONyA2CmF",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "FAILING_VALIDATION",
+            "printedName": "FAILING_VALIDATION",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RNaurt.NaurtTrackingStatus.Type) -> RNaurt.NaurtTrackingStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NaurtTrackingStatus",
+                    "printedName": "RNaurt.NaurtTrackingStatus",
+                    "usr": "s:6RNaurt19NaurtTrackingStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RNaurt.NaurtTrackingStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NaurtTrackingStatus",
+                        "printedName": "RNaurt.NaurtTrackingStatus",
+                        "usr": "s:6RNaurt19NaurtTrackingStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6RNaurt19NaurtTrackingStatusO18FAILING_VALIDATIONyA2CmF",
+            "mangledName": "$s6RNaurt19NaurtTrackingStatusO18FAILING_VALIDATIONyA2CmF",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "INVALID_API_KEY",
+            "printedName": "INVALID_API_KEY",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RNaurt.NaurtTrackingStatus.Type) -> RNaurt.NaurtTrackingStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NaurtTrackingStatus",
+                    "printedName": "RNaurt.NaurtTrackingStatus",
+                    "usr": "s:6RNaurt19NaurtTrackingStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RNaurt.NaurtTrackingStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NaurtTrackingStatus",
+                        "printedName": "RNaurt.NaurtTrackingStatus",
+                        "usr": "s:6RNaurt19NaurtTrackingStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6RNaurt19NaurtTrackingStatusO15INVALID_API_KEYyA2CmF",
+            "mangledName": "$s6RNaurt19NaurtTrackingStatusO15INVALID_API_KEYyA2CmF",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NaurtTrackingStatus",
+                "printedName": "RNaurt.NaurtTrackingStatus",
+                "usr": "s:6RNaurt19NaurtTrackingStatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NaurtTrackingStatus",
+                "printedName": "RNaurt.NaurtTrackingStatus",
+                "usr": "s:6RNaurt19NaurtTrackingStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6RNaurt19NaurtTrackingStatusO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s6RNaurt19NaurtTrackingStatusO2eeoiySbAC_ACtFZ",
+            "moduleName": "RNaurt",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6RNaurt19NaurtTrackingStatusO9hashValueSivp",
+            "mangledName": "$s6RNaurt19NaurtTrackingStatusO9hashValueSivp",
+            "moduleName": "RNaurt",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt19NaurtTrackingStatusO9hashValueSivg",
+                "mangledName": "$s6RNaurt19NaurtTrackingStatusO9hashValueSivg",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6RNaurt19NaurtTrackingStatusO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s6RNaurt19NaurtTrackingStatusO4hash4intoys6HasherVz_tF",
+            "moduleName": "RNaurt",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6RNaurt19NaurtTrackingStatusO",
+        "mangledName": "$s6RNaurt19NaurtTrackingStatusO",
+        "moduleName": "RNaurt",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "Import",
+        "name": "Zip",
+        "printedName": "Zip",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogLevel",
+        "printedName": "LogLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "INFO",
+            "printedName": "INFO",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RNaurt.LogLevel.Type) -> RNaurt.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "RNaurt.LogLevel",
+                    "usr": "s:6RNaurt8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RNaurt.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "RNaurt.LogLevel",
+                        "usr": "s:6RNaurt8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6RNaurt8LogLevelO4INFOyA2CmF",
+            "mangledName": "$s6RNaurt8LogLevelO4INFOyA2CmF",
+            "moduleName": "RNaurt"
+          },
+          {
+            "kind": "Var",
+            "name": "WARNING",
+            "printedName": "WARNING",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RNaurt.LogLevel.Type) -> RNaurt.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "RNaurt.LogLevel",
+                    "usr": "s:6RNaurt8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RNaurt.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "RNaurt.LogLevel",
+                        "usr": "s:6RNaurt8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6RNaurt8LogLevelO7WARNINGyA2CmF",
+            "mangledName": "$s6RNaurt8LogLevelO7WARNINGyA2CmF",
+            "moduleName": "RNaurt"
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR",
+            "printedName": "ERROR",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RNaurt.LogLevel.Type) -> RNaurt.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "RNaurt.LogLevel",
+                    "usr": "s:6RNaurt8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RNaurt.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "RNaurt.LogLevel",
+                        "usr": "s:6RNaurt8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6RNaurt8LogLevelO5ERRORyA2CmF",
+            "mangledName": "$s6RNaurt8LogLevelO5ERRORyA2CmF",
+            "moduleName": "RNaurt"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "RNaurt.LogLevel",
+                "usr": "s:6RNaurt8LogLevelO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "RNaurt.LogLevel",
+                "usr": "s:6RNaurt8LogLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6RNaurt8LogLevelO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s6RNaurt8LogLevelO2eeoiySbAC_ACtFZ",
+            "moduleName": "RNaurt",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6RNaurt8LogLevelO9hashValueSivp",
+            "mangledName": "$s6RNaurt8LogLevelO9hashValueSivp",
+            "moduleName": "RNaurt",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt8LogLevelO9hashValueSivg",
+                "mangledName": "$s6RNaurt8LogLevelO9hashValueSivg",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6RNaurt8LogLevelO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s6RNaurt8LogLevelO4hash4intoys6HasherVz_tF",
+            "moduleName": "RNaurt",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6RNaurt8LogLevelO",
+        "mangledName": "$s6RNaurt8LogLevelO",
+        "moduleName": "RNaurt",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "logLevelToString",
+        "printedName": "logLevelToString(logLevel:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "LogLevel",
+            "printedName": "RNaurt.LogLevel",
+            "usr": "s:6RNaurt8LogLevelO"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:6RNaurt16logLevelToString0bC0SSAA03LogC0O_tF",
+        "mangledName": "$s6RNaurt16logLevelToString0bC0SSAA03LogC0O_tF",
+        "moduleName": "RNaurt",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RNaurt",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "Import",
+        "name": "Zip",
+        "printedName": "Zip",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NaurtDelegate",
+        "printedName": "NaurtDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didChangeInitialised",
+            "printedName": "didChangeInitialised(isInitialised:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6RNaurt13NaurtDelegateP20didChangeInitialised02isF0ySb_tF",
+            "mangledName": "$s6RNaurt13NaurtDelegateP20didChangeInitialised02isF0ySb_tF",
+            "moduleName": "RNaurt",
+            "genericSig": "<τ_0_0 where τ_0_0 : RNaurt.NaurtDelegate>",
+            "sugared_genericSig": "<Self where Self : RNaurt.NaurtDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didChangeValidated",
+            "printedName": "didChangeValidated(isValidated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6RNaurt13NaurtDelegateP18didChangeValidated02isF0ySb_tF",
+            "mangledName": "$s6RNaurt13NaurtDelegateP18didChangeValidated02isF0ySb_tF",
+            "moduleName": "RNaurt",
+            "genericSig": "<τ_0_0 where τ_0_0 : RNaurt.NaurtDelegate>",
+            "sugared_genericSig": "<Self where Self : RNaurt.NaurtDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didChangeRunning",
+            "printedName": "didChangeRunning(isRunning:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6RNaurt13NaurtDelegateP16didChangeRunning02isF0ySb_tF",
+            "mangledName": "$s6RNaurt13NaurtDelegateP16didChangeRunning02isF0ySb_tF",
+            "moduleName": "RNaurt",
+            "genericSig": "<τ_0_0 where τ_0_0 : RNaurt.NaurtDelegate>",
+            "sugared_genericSig": "<Self where Self : RNaurt.NaurtDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didChangeJourneyUuid",
+            "printedName": "didChangeJourneyUuid(journeyUuid:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.UUID?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6RNaurt13NaurtDelegateP20didChangeJourneyUuid07journeyG0y10Foundation4UUIDVSg_tF",
+            "mangledName": "$s6RNaurt13NaurtDelegateP20didChangeJourneyUuid07journeyG0y10Foundation4UUIDVSg_tF",
+            "moduleName": "RNaurt",
+            "genericSig": "<τ_0_0 where τ_0_0 : RNaurt.NaurtDelegate>",
+            "sugared_genericSig": "<Self where Self : RNaurt.NaurtDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didChangeStatus",
+            "printedName": "didChangeStatus(trackingStatus:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NaurtTrackingStatus",
+                "printedName": "RNaurt.NaurtTrackingStatus",
+                "usr": "s:6RNaurt19NaurtTrackingStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6RNaurt13NaurtDelegateP15didChangeStatus08trackingF0yAA0b8TrackingF0O_tF",
+            "mangledName": "$s6RNaurt13NaurtDelegateP15didChangeStatus08trackingF0yAA0b8TrackingF0O_tF",
+            "moduleName": "RNaurt",
+            "genericSig": "<τ_0_0 where τ_0_0 : RNaurt.NaurtDelegate>",
+            "sugared_genericSig": "<Self where Self : RNaurt.NaurtDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6RNaurt13NaurtDelegateP5startyyF",
+            "mangledName": "$s6RNaurt13NaurtDelegateP5startyyF",
+            "moduleName": "RNaurt",
+            "genericSig": "<τ_0_0 where τ_0_0 : RNaurt.NaurtDelegate>",
+            "sugared_genericSig": "<Self where Self : RNaurt.NaurtDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6RNaurt13NaurtDelegateP4stopyyF",
+            "mangledName": "$s6RNaurt13NaurtDelegateP4stopyyF",
+            "moduleName": "RNaurt",
+            "genericSig": "<τ_0_0 where τ_0_0 : RNaurt.NaurtDelegate>",
+            "sugared_genericSig": "<Self where Self : RNaurt.NaurtDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6RNaurt13NaurtDelegateP",
+        "mangledName": "$s6RNaurt13NaurtDelegateP",
+        "moduleName": "RNaurt",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Naurt",
+        "printedName": "Naurt",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "deviceUuid",
+            "printedName": "deviceUuid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6RNaurt5NaurtC10deviceUuidSSvp",
+            "mangledName": "$s6RNaurt5NaurtC10deviceUuidSSvp",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt5NaurtC10deviceUuidSSvg",
+                "mangledName": "$s6RNaurt5NaurtC10deviceUuidSSvg",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "locationPermission",
+            "printedName": "locationPermission",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CLAuthorizationStatus",
+                "printedName": "CoreLocation.CLAuthorizationStatus",
+                "usr": "c:@E@CLAuthorizationStatus"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6RNaurt5NaurtC18locationPermissionSo21CLAuthorizationStatusVvp",
+            "mangledName": "$s6RNaurt5NaurtC18locationPermissionSo21CLAuthorizationStatusVvp",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLAuthorizationStatus",
+                    "printedName": "CoreLocation.CLAuthorizationStatus",
+                    "usr": "c:@E@CLAuthorizationStatus"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt5NaurtC18locationPermissionSo21CLAuthorizationStatusVvg",
+                "mangledName": "$s6RNaurt5NaurtC18locationPermissionSo21CLAuthorizationStatusVvg",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLAuthorizationStatus",
+                    "printedName": "CoreLocation.CLAuthorizationStatus",
+                    "usr": "c:@E@CLAuthorizationStatus"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt5NaurtC18locationPermissionSo21CLAuthorizationStatusVvs",
+                "mangledName": "$s6RNaurt5NaurtC18locationPermissionSo21CLAuthorizationStatusVvs",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt5NaurtC18locationPermissionSo21CLAuthorizationStatusVvM",
+                "mangledName": "$s6RNaurt5NaurtC18locationPermissionSo21CLAuthorizationStatusVvM",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isInitialised",
+            "printedName": "isInitialised",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6RNaurt5NaurtC13isInitialisedSbvp",
+            "mangledName": "$s6RNaurt5NaurtC13isInitialisedSbvp",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt5NaurtC13isInitialisedSbvg",
+                "mangledName": "$s6RNaurt5NaurtC13isInitialisedSbvg",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt5NaurtC13isInitialisedSbvs",
+                "mangledName": "$s6RNaurt5NaurtC13isInitialisedSbvs",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt5NaurtC13isInitialisedSbvM",
+                "mangledName": "$s6RNaurt5NaurtC13isInitialisedSbvM",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isValidated",
+            "printedName": "isValidated",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6RNaurt5NaurtC11isValidatedSbvp",
+            "mangledName": "$s6RNaurt5NaurtC11isValidatedSbvp",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt5NaurtC11isValidatedSbvg",
+                "mangledName": "$s6RNaurt5NaurtC11isValidatedSbvg",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt5NaurtC11isValidatedSbvs",
+                "mangledName": "$s6RNaurt5NaurtC11isValidatedSbvs",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt5NaurtC11isValidatedSbvM",
+                "mangledName": "$s6RNaurt5NaurtC11isValidatedSbvM",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isRunning",
+            "printedName": "isRunning",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6RNaurt5NaurtC9isRunningSbvp",
+            "mangledName": "$s6RNaurt5NaurtC9isRunningSbvp",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt5NaurtC9isRunningSbvg",
+                "mangledName": "$s6RNaurt5NaurtC9isRunningSbvg",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt5NaurtC9isRunningSbvs",
+                "mangledName": "$s6RNaurt5NaurtC9isRunningSbvs",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt5NaurtC9isRunningSbvM",
+                "mangledName": "$s6RNaurt5NaurtC9isRunningSbvM",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "journeyUuid",
+            "printedName": "journeyUuid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.UUID?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6RNaurt5NaurtC11journeyUuid10Foundation4UUIDVSgvp",
+            "mangledName": "$s6RNaurt5NaurtC11journeyUuid10Foundation4UUIDVSgvp",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.UUID?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UUID",
+                        "printedName": "Foundation.UUID",
+                        "usr": "s:10Foundation4UUIDV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt5NaurtC11journeyUuid10Foundation4UUIDVSgvg",
+                "mangledName": "$s6RNaurt5NaurtC11journeyUuid10Foundation4UUIDVSgvg",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.UUID?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UUID",
+                        "printedName": "Foundation.UUID",
+                        "usr": "s:10Foundation4UUIDV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt5NaurtC11journeyUuid10Foundation4UUIDVSgvs",
+                "mangledName": "$s6RNaurt5NaurtC11journeyUuid10Foundation4UUIDVSgvs",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt5NaurtC11journeyUuid10Foundation4UUIDVSgvM",
+                "mangledName": "$s6RNaurt5NaurtC11journeyUuid10Foundation4UUIDVSgvM",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "trackingStatus",
+            "printedName": "trackingStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NaurtTrackingStatus",
+                "printedName": "RNaurt.NaurtTrackingStatus",
+                "usr": "s:6RNaurt19NaurtTrackingStatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6RNaurt5NaurtC14trackingStatusAA0b8TrackingD0Ovp",
+            "mangledName": "$s6RNaurt5NaurtC14trackingStatusAA0b8TrackingD0Ovp",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NaurtTrackingStatus",
+                    "printedName": "RNaurt.NaurtTrackingStatus",
+                    "usr": "s:6RNaurt19NaurtTrackingStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt5NaurtC14trackingStatusAA0b8TrackingD0Ovg",
+                "mangledName": "$s6RNaurt5NaurtC14trackingStatusAA0b8TrackingD0Ovg",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NaurtTrackingStatus",
+                    "printedName": "RNaurt.NaurtTrackingStatus",
+                    "usr": "s:6RNaurt19NaurtTrackingStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt5NaurtC14trackingStatusAA0b8TrackingD0Ovs",
+                "mangledName": "$s6RNaurt5NaurtC14trackingStatusAA0b8TrackingD0Ovs",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt5NaurtC14trackingStatusAA0b8TrackingD0OvM",
+                "mangledName": "$s6RNaurt5NaurtC14trackingStatusAA0b8TrackingD0OvM",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RNaurt.NaurtDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NaurtDelegate",
+                    "printedName": "RNaurt.NaurtDelegate",
+                    "usr": "s:6RNaurt13NaurtDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6RNaurt5NaurtC8delegateAA0B8Delegate_pSgvp",
+            "mangledName": "$s6RNaurt5NaurtC8delegateAA0B8Delegate_pSgvp",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "RNaurt.NaurtDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NaurtDelegate",
+                        "printedName": "RNaurt.NaurtDelegate",
+                        "usr": "s:6RNaurt13NaurtDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt5NaurtC8delegateAA0B8Delegate_pSgvg",
+                "mangledName": "$s6RNaurt5NaurtC8delegateAA0B8Delegate_pSgvg",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "RNaurt.NaurtDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NaurtDelegate",
+                        "printedName": "RNaurt.NaurtDelegate",
+                        "usr": "s:6RNaurt13NaurtDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt5NaurtC8delegateAA0B8Delegate_pSgvs",
+                "mangledName": "$s6RNaurt5NaurtC8delegateAA0B8Delegate_pSgvs",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt5NaurtC8delegateAA0B8Delegate_pSgvM",
+                "mangledName": "$s6RNaurt5NaurtC8delegateAA0B8Delegate_pSgvM",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Naurt",
+                "printedName": "RNaurt.Naurt",
+                "usr": "s:6RNaurt5NaurtC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6RNaurt5NaurtC6apiKeyACSS_tcfc",
+            "mangledName": "$s6RNaurt5NaurtC6apiKeyACSS_tcfc",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6RNaurt5NaurtC5startyyF",
+            "mangledName": "$s6RNaurt5NaurtC5startyyF",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "distanceBetween",
+            "printedName": "distanceBetween(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationCoordinate2D",
+                "printedName": "CoreLocation.CLLocationCoordinate2D",
+                "usr": "c:@S@CLLocationCoordinate2D"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6RNaurt5NaurtC15distanceBetweenySdSo22CLLocationCoordinate2DVF",
+            "mangledName": "$s6RNaurt5NaurtC15distanceBetweenySdSo22CLLocationCoordinate2DVF",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6RNaurt5NaurtC4stopyyF",
+            "mangledName": "$s6RNaurt5NaurtC4stopyyF",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6RNaurt5NaurtC",
+        "mangledName": "$s6RNaurt5NaurtC",
+        "moduleName": "RNaurt",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MotionStruct",
+        "printedName": "MotionStruct",
+        "declKind": "Struct",
+        "usr": "s:6RNaurt12MotionStructV",
+        "mangledName": "$s6RNaurt12MotionStructV",
+        "moduleName": "RNaurt",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NaurtLocation",
+        "printedName": "NaurtLocation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "timestamp",
+            "printedName": "timestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6RNaurt13NaurtLocationV9timestampSdvp",
+            "mangledName": "$s6RNaurt13NaurtLocationV9timestampSdvp",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV9timestampSdvg",
+                "mangledName": "$s6RNaurt13NaurtLocationV9timestampSdvg",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV9timestampSdvs",
+                "mangledName": "$s6RNaurt13NaurtLocationV9timestampSdvs",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV9timestampSdvM",
+                "mangledName": "$s6RNaurt13NaurtLocationV9timestampSdvM",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "longitude",
+            "printedName": "longitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6RNaurt13NaurtLocationV9longitudeSdvp",
+            "mangledName": "$s6RNaurt13NaurtLocationV9longitudeSdvp",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV9longitudeSdvg",
+                "mangledName": "$s6RNaurt13NaurtLocationV9longitudeSdvg",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV9longitudeSdvs",
+                "mangledName": "$s6RNaurt13NaurtLocationV9longitudeSdvs",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV9longitudeSdvM",
+                "mangledName": "$s6RNaurt13NaurtLocationV9longitudeSdvM",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "latitude",
+            "printedName": "latitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6RNaurt13NaurtLocationV8latitudeSdvp",
+            "mangledName": "$s6RNaurt13NaurtLocationV8latitudeSdvp",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV8latitudeSdvg",
+                "mangledName": "$s6RNaurt13NaurtLocationV8latitudeSdvg",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV8latitudeSdvs",
+                "mangledName": "$s6RNaurt13NaurtLocationV8latitudeSdvs",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV8latitudeSdvM",
+                "mangledName": "$s6RNaurt13NaurtLocationV8latitudeSdvM",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "altitude",
+            "printedName": "altitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6RNaurt13NaurtLocationV8altitudeSdvp",
+            "mangledName": "$s6RNaurt13NaurtLocationV8altitudeSdvp",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV8altitudeSdvg",
+                "mangledName": "$s6RNaurt13NaurtLocationV8altitudeSdvg",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV8altitudeSdvs",
+                "mangledName": "$s6RNaurt13NaurtLocationV8altitudeSdvs",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV8altitudeSdvM",
+                "mangledName": "$s6RNaurt13NaurtLocationV8altitudeSdvM",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "verticalAccuracy",
+            "printedName": "verticalAccuracy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6RNaurt13NaurtLocationV16verticalAccuracySdvp",
+            "mangledName": "$s6RNaurt13NaurtLocationV16verticalAccuracySdvp",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV16verticalAccuracySdvg",
+                "mangledName": "$s6RNaurt13NaurtLocationV16verticalAccuracySdvg",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV16verticalAccuracySdvs",
+                "mangledName": "$s6RNaurt13NaurtLocationV16verticalAccuracySdvs",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV16verticalAccuracySdvM",
+                "mangledName": "$s6RNaurt13NaurtLocationV16verticalAccuracySdvM",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "speed",
+            "printedName": "speed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6RNaurt13NaurtLocationV5speedSdvp",
+            "mangledName": "$s6RNaurt13NaurtLocationV5speedSdvp",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV5speedSdvg",
+                "mangledName": "$s6RNaurt13NaurtLocationV5speedSdvg",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV5speedSdvs",
+                "mangledName": "$s6RNaurt13NaurtLocationV5speedSdvs",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV5speedSdvM",
+                "mangledName": "$s6RNaurt13NaurtLocationV5speedSdvM",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "speedAccuracy",
+            "printedName": "speedAccuracy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6RNaurt13NaurtLocationV13speedAccuracySdvp",
+            "mangledName": "$s6RNaurt13NaurtLocationV13speedAccuracySdvp",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV13speedAccuracySdvg",
+                "mangledName": "$s6RNaurt13NaurtLocationV13speedAccuracySdvg",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV13speedAccuracySdvs",
+                "mangledName": "$s6RNaurt13NaurtLocationV13speedAccuracySdvs",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV13speedAccuracySdvM",
+                "mangledName": "$s6RNaurt13NaurtLocationV13speedAccuracySdvM",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "course",
+            "printedName": "course",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6RNaurt13NaurtLocationV6courseSdvp",
+            "mangledName": "$s6RNaurt13NaurtLocationV6courseSdvp",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV6courseSdvg",
+                "mangledName": "$s6RNaurt13NaurtLocationV6courseSdvg",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV6courseSdvs",
+                "mangledName": "$s6RNaurt13NaurtLocationV6courseSdvs",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV6courseSdvM",
+                "mangledName": "$s6RNaurt13NaurtLocationV6courseSdvM",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "courseAccuracy",
+            "printedName": "courseAccuracy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6RNaurt13NaurtLocationV14courseAccuracySdvp",
+            "mangledName": "$s6RNaurt13NaurtLocationV14courseAccuracySdvp",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV14courseAccuracySdvg",
+                "mangledName": "$s6RNaurt13NaurtLocationV14courseAccuracySdvg",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV14courseAccuracySdvs",
+                "mangledName": "$s6RNaurt13NaurtLocationV14courseAccuracySdvs",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV14courseAccuracySdvM",
+                "mangledName": "$s6RNaurt13NaurtLocationV14courseAccuracySdvM",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "horizontalAccuracy",
+            "printedName": "horizontalAccuracy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6RNaurt13NaurtLocationV18horizontalAccuracySdvp",
+            "mangledName": "$s6RNaurt13NaurtLocationV18horizontalAccuracySdvp",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV18horizontalAccuracySdvg",
+                "mangledName": "$s6RNaurt13NaurtLocationV18horizontalAccuracySdvg",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV18horizontalAccuracySdvs",
+                "mangledName": "$s6RNaurt13NaurtLocationV18horizontalAccuracySdvs",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV18horizontalAccuracySdvM",
+                "mangledName": "$s6RNaurt13NaurtLocationV18horizontalAccuracySdvM",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "horizontalCovariance",
+            "printedName": "horizontalCovariance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6RNaurt13NaurtLocationV20horizontalCovarianceSdvp",
+            "mangledName": "$s6RNaurt13NaurtLocationV20horizontalCovarianceSdvp",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV20horizontalCovarianceSdvg",
+                "mangledName": "$s6RNaurt13NaurtLocationV20horizontalCovarianceSdvg",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV20horizontalCovarianceSdvs",
+                "mangledName": "$s6RNaurt13NaurtLocationV20horizontalCovarianceSdvs",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt13NaurtLocationV20horizontalCovarianceSdvM",
+                "mangledName": "$s6RNaurt13NaurtLocationV20horizontalCovarianceSdvM",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "toString",
+            "printedName": "toString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6RNaurt13NaurtLocationV8toStringSSyF",
+            "mangledName": "$s6RNaurt13NaurtLocationV8toStringSSyF",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6RNaurt13NaurtLocationV",
+        "mangledName": "$s6RNaurt13NaurtLocationV",
+        "moduleName": "RNaurt",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "rawLocation",
+        "printedName": "rawLocation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "latitude",
+            "printedName": "latitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6RNaurt11rawLocationV8latitudeSdvp",
+            "mangledName": "$s6RNaurt11rawLocationV8latitudeSdvp",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt11rawLocationV8latitudeSdvg",
+                "mangledName": "$s6RNaurt11rawLocationV8latitudeSdvg",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt11rawLocationV8latitudeSdvs",
+                "mangledName": "$s6RNaurt11rawLocationV8latitudeSdvs",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt11rawLocationV8latitudeSdvM",
+                "mangledName": "$s6RNaurt11rawLocationV8latitudeSdvM",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "longitude",
+            "printedName": "longitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6RNaurt11rawLocationV9longitudeSdvp",
+            "mangledName": "$s6RNaurt11rawLocationV9longitudeSdvp",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt11rawLocationV9longitudeSdvg",
+                "mangledName": "$s6RNaurt11rawLocationV9longitudeSdvg",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt11rawLocationV9longitudeSdvs",
+                "mangledName": "$s6RNaurt11rawLocationV9longitudeSdvs",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt11rawLocationV9longitudeSdvM",
+                "mangledName": "$s6RNaurt11rawLocationV9longitudeSdvM",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timestamp",
+            "printedName": "timestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt64",
+                "printedName": "Swift.UInt64",
+                "usr": "s:s6UInt64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6RNaurt11rawLocationV9timestamps6UInt64Vvp",
+            "mangledName": "$s6RNaurt11rawLocationV9timestamps6UInt64Vvp",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt11rawLocationV9timestamps6UInt64Vvg",
+                "mangledName": "$s6RNaurt11rawLocationV9timestamps6UInt64Vvg",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt11rawLocationV9timestamps6UInt64Vvs",
+                "mangledName": "$s6RNaurt11rawLocationV9timestamps6UInt64Vvs",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6RNaurt11rawLocationV9timestamps6UInt64VvM",
+                "mangledName": "$s6RNaurt11rawLocationV9timestamps6UInt64VvM",
+                "moduleName": "RNaurt",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6RNaurt11rawLocationV",
+        "mangledName": "$s6RNaurt11rawLocationV",
+        "moduleName": "RNaurt",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RNaurt",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Zip",
+        "printedName": "Zip",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RNaurt",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "Function",
+        "name": "distanceBetween",
+        "printedName": "distanceBetween(_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Double",
+            "printedName": "Swift.Double",
+            "usr": "s:Sd"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "CLLocationCoordinate2D",
+            "printedName": "CoreLocation.CLLocationCoordinate2D",
+            "usr": "c:@S@CLLocationCoordinate2D"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "CLLocationCoordinate2D",
+            "printedName": "CoreLocation.CLLocationCoordinate2D",
+            "usr": "c:@S@CLLocationCoordinate2D"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:6RNaurt15distanceBetweenySdSo22CLLocationCoordinate2DV_ADtF",
+        "mangledName": "$s6RNaurt15distanceBetweenySdSo22CLLocationCoordinate2DV_ADtF",
+        "moduleName": "RNaurt",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RNaurt",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RNaurt",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "LASwift",
+        "printedName": "LASwift",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RNaurt",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "LASwift",
+        "printedName": "LASwift",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RNaurt",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "LASwift",
+        "printedName": "LASwift",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RNaurt",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RNaurt",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "LASwift",
+        "printedName": "LASwift",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RNaurt",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RNaurt",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "LASwift",
+        "printedName": "LASwift",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RNaurt",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "LASwift",
+        "printedName": "LASwift",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "Import",
+        "name": "LASwift",
+        "printedName": "LASwift",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RNaurt",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "LASwift",
+        "printedName": "LASwift",
+        "declKind": "Import",
+        "moduleName": "RNaurt"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 843,
+      "length": 7,
+      "value": "\":#[]@\""
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 948,
+      "length": 13,
+      "value": "\"!$&'()*+,;=\""
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1051,
+      "length": 54,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1080,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1104,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/FileHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 127,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/FileHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 204,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/FileHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 309,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/FileHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 315,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Structs.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1311,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Structs.swift",
+      "kind": "FloatLiteral",
+      "offset": 1340,
+      "length": 6,
+      "value": "999.0"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Structs.swift",
+      "kind": "FloatLiteral",
+      "offset": 1374,
+      "length": 6,
+      "value": "999.0"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Structs.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1406,
+      "length": 4,
+      "value": "999"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Structs.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1448,
+      "length": 4,
+      "value": "999"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Structs.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1493,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Structs.swift",
+      "kind": "StringLiteral",
+      "offset": 1525,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Structs.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1586,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Structs.swift",
+      "kind": "FloatLiteral",
+      "offset": 1615,
+      "length": 6,
+      "value": "999.0"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Structs.swift",
+      "kind": "FloatLiteral",
+      "offset": 1649,
+      "length": 6,
+      "value": "999.0"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Structs.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1682,
+      "length": 4,
+      "value": "999"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Structs.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1724,
+      "length": 4,
+      "value": "999"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/UploadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 236,
+      "length": 71,
+      "value": "\"https:\/\/zagxm7olgcwqmvy6vwljqmsgzi0ejjei.lambda-url.eu-west-2.on.aws\/\""
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/UploadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 357,
+      "length": 71,
+      "value": "\"https:\/\/5vmtdmveabvde7kcelzpte3pve0kqhuj.lambda-url.eu-west-2.on.aws\/\""
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/UploadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 474,
+      "length": 71,
+      "value": "\"https:\/\/3nhjhwzclw7c4twyhqppnwy2qe0xaljp.lambda-url.eu-west-2.on.aws\/\""
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/UploadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 593,
+      "length": 71,
+      "value": "\"https:\/\/csvbtdqpdozjktezrq37dgyq5a0fbgjq.lambda-url.eu-west-2.on.aws\/\""
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/UploadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5611,
+      "length": 33,
+      "value": "\"application\/json; charset=utf-8\""
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/UploadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5666,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/UploadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5712,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/UploadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6910,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/UploadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7064,
+      "length": 33,
+      "value": "\"application\/json; charset=utf-8\""
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/UploadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7119,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/UploadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7165,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/UploadManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8146,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/UploadManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8152,
+      "length": 3,
+      "value": "299"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/UploadManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8568,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/UploadManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8699,
+      "length": 3,
+      "value": "202"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Utilities\/Models\/Milana.swift",
+      "kind": "FloatLiteral",
+      "offset": 877,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Utilities\/Models\/Milana.swift",
+      "kind": "FloatLiteral",
+      "offset": 922,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Utilities\/Quaternion\/Quaternion.swift",
+      "kind": "FloatLiteral",
+      "offset": 165,
+      "length": 4,
+      "value": "9.81"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Utilities\/ReferenceFrames.swift",
+      "kind": "FloatLiteral",
+      "offset": 104,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Utilities\/ReferenceFrames.swift",
+      "kind": "FloatLiteral",
+      "offset": 110,
+      "length": 13,
+      "value": "298.257223563"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Utilities\/ReferenceFrames.swift",
+      "kind": "FloatLiteral",
+      "offset": 281,
+      "length": 22,
+      "value": "0.00669437999014131699"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Utilities\/ReferenceFrames.swift",
+      "kind": "FloatLiteral",
+      "offset": 342,
+      "length": 9,
+      "value": "6378137.0"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Utilities\/Sensors\/Marg.swift",
+      "kind": "FloatLiteral",
+      "offset": 191,
+      "length": 3,
+      "value": "2.2"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Utilities\/Sensors\/Pedestrian.swift",
+      "kind": "IntegerLiteral",
+      "offset": 164,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Utilities\/Sensors\/Pedestrian.swift",
+      "kind": "FloatLiteral",
+      "offset": 208,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Utilities\/Sensors\/Pedestrian.swift",
+      "kind": "FloatLiteral",
+      "offset": 257,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Utilities\/Sensors\/Pedestrian.swift",
+      "kind": "FloatLiteral",
+      "offset": 307,
+      "length": 3,
+      "value": "1.1"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Utilities\/Sensors\/Pedestrian.swift",
+      "kind": "FloatLiteral",
+      "offset": 357,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Utilities\/Sensors\/Pedestrian.swift",
+      "kind": "FloatLiteral",
+      "offset": 405,
+      "length": 5,
+      "value": "12.0"
+    },
+    {
+      "filePath": "\/Users\/nathanielcurnick\/Documents\/naurt\/RNaurt\/Sources\/RNaurt\/Utilities\/Sensors\/Pedestrian.swift",
+      "kind": "FloatLiteral",
+      "offset": 448,
+      "length": 3,
+      "value": "3.5"
+    }
+  ]
+}
