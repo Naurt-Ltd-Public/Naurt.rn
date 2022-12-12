@@ -56,6 +56,8 @@ final public class Naurt {
   public init(apiKey: Swift.String)
   final public func start()
   final public func distanceBetween(_ a: CoreLocation.CLLocationCoordinate2D) -> Swift.Double
+  final public func newSensorReading(newSensorReading: RNaurt.MotionStruct)
+  final public func newLocationServicePoint(newPoint: CoreLocation.CLLocation) -> RNaurt.NaurtLocation?
   final public func stop()
   @objc deinit
 }

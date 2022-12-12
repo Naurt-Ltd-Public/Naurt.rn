@@ -1795,6 +1795,69 @@
           },
           {
             "kind": "Function",
+            "name": "newSensorReading",
+            "printedName": "newSensorReading(newSensorReading:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MotionStruct",
+                "printedName": "RNaurt.MotionStruct",
+                "usr": "s:6RNaurt12MotionStructV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6RNaurt5NaurtC16newSensorReadingADyAA12MotionStructV_tF",
+            "mangledName": "$s6RNaurt5NaurtC16newSensorReadingADyAA12MotionStructV_tF",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "newLocationServicePoint",
+            "printedName": "newLocationServicePoint(newPoint:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RNaurt.NaurtLocation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NaurtLocation",
+                    "printedName": "RNaurt.NaurtLocation",
+                    "usr": "s:6RNaurt13NaurtLocationV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocation",
+                "printedName": "CoreLocation.CLLocation",
+                "usr": "c:objc(cs)CLLocation"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6RNaurt5NaurtC23newLocationServicePoint0cF0AA0bD0VSgSo10CLLocationC_tF",
+            "mangledName": "$s6RNaurt5NaurtC23newLocationServicePoint0cF0AA0bD0VSgSo10CLLocationC_tF",
+            "moduleName": "RNaurt",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "stop",
             "printedName": "stop()",
             "children": [
